@@ -1,18 +1,30 @@
 
 /* margin is working but not border? */
 .photo {
-	border:2px;
-	border-color: #ffffff;
-	margin:2px;
+
+	width: 100px;
+	margin:10px;
 }
 
-/* this font stuff is not working right now */
-@font-face{
-	font-family:FiraSans;
-	src: url("https://fonts.google.com/specimen/Fira+Sans?selection.family=Fira+Sans");
+.contentItem {
+	margin:10px;
 }
 
-.mainHeader {
-	font-family: FiraSans;
+img{
+	width: 600px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 15px;
+}
 
+
+
+h1 {
+	font-family: Voltaire, sans-serif;
+
+}
+
+body {
+	font-family: sans-serif
 }
