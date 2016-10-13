@@ -16,6 +16,8 @@ img{
 	border-style: solid;
 	border-color: #000000;
 	border-radius: 15px;
+	justify-content: center;
+	margin: auto;
 }
 
 

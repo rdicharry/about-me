@@ -24,13 +24,15 @@
 				<b>Nature lover.</b> <br/>
 				<img src="img/juniper.JPG" alt="Juniper"/>
 			</div>
-			<section class="contentItem"><b>Background:</b>I was born in Las Cruces, and came to Albuquerque after a short residence in Connecticut for graduate school. I have a great love for all things mathematical. I have a degree in chemical engineering, and way too many computer science and math classes under my belt. I am not an artist, but I have much love and appreciation for art and good design. I love getting away from the city for a great hike or camping trip. I love creating and learning how things are constructed.
+			<section class="contentItem"><b>Background:</b>I grew up in Las Cruces, NM, and came to Albuquerque after a short residence in Connecticut for graduate school. I have a great love for all things mathematical. I have a degree in chemical engineering, and I have taken way too many computer science and math classes. I am not an artist, but I have much love and appreciation for art and good design. I love getting away from the city for a great hike or camping trip. I love creating and learning how things are constructed.
 
 			</section>
 			<section class="contentItem"><b>Things I like:</b>
 				<ul>
-					<li></li>
+					<li>Enchiladas</li>
 					<li>Team coffee or team tea? Both!</li>
+					<li>Meteor Showers</li>
+
 				</ul>
 
 			</section>
