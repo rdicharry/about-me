@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
+		<meta charset="UTF-8"/>
 		<title>Math Symbol Mandala</title>
 
 	</head>
@@ -14,12 +15,16 @@
 			canvas.style.background = 'lightblue';
 
 			origin = canvas.getAttribute("width")/2;
-			//document.write(origin);
+			document.write(origin+'Pi = &#x03c0');
 			numPoints = 8;
 			angle = 2*Math.PI/points;
 			distance = 80; // number of pixels from origin to place character
 
 			// create an image from a character
+			// create a canvas,
+			// write to it as text
+			// use canvas.toDataURL() to copy
+			document.write('Pi = &#x0023');
 
 			//rotate image (p612 translate method)
 
