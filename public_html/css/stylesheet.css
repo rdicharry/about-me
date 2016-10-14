@@ -1,7 +1,6 @@
 
 /* margin is working but not border? */
 .photo {
-
 	width: 100px;
 	margin:10px;
 }
@@ -24,7 +23,6 @@ img{
 
 h1 {
 	font-family: Voltaire, sans-serif;
-
 }
 
 body {

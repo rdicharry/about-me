@@ -39,7 +39,7 @@
 
 			<section class="contentItem"><b>Favorite Pages:</b>
 				<ul>
-					<li></li>
+					<li><a href="canvas-test.html">Canvas Test</a></li>
 				</ul>
 			</section>
 
