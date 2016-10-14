@@ -40,6 +40,7 @@
 			<section class="contentItem"><b>Favorite Pages:</b>
 				<ul>
 					<li><a href="canvas-test.html">Canvas Test</a></li>
+					<li><a href="https://apod.nasa.gov/apod/astropix.html">APOD</a></li>
 				</ul>
 			</section>
 
