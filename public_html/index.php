@@ -39,10 +39,12 @@
 
 			<section class="contentItem"><b>Favorite Pages:</b>
 				<ul>
+					<li><a href="bootstrap-test.html">Bootstrap Test</a></li>
 					<li><a href="canvas-test.html">Canvas Test</a></li>
 					<li><a href="https://apod.nasa.gov/apod/astropix.html">Astronomy Picture of the Day</a></li>
 					<li><a href="http://www.coasbooks.com/">Coas Books - Best Used Bookstore in NM</a></li>
 					<li><a href="https://www.powells.com/">Powell's City of Books</a></li>
+					<li><a href="https://en.wikipedia.org/wiki/Photonic_crystal">Photonic Crystals</a></li>
 				</ul>
 			</section>
 
