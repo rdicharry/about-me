@@ -13,18 +13,58 @@
 			context = canvas.getContext("2d");
 
 			canvas.style.background = 'lightblue';
-
+			var smallPi = '\u03c0';
 			origin = canvas.getAttribute("width")/2;
-			document.write(origin+'Pi = &#x03c0');
+			document.write(origin+'Pi = '+smallPi);
 			numPoints = 8;
-			angle = 2*Math.PI/points;
+			angle = 2*Math.PI/numPoints;
 			distance = 80; // number of pixels from origin to place character
 
 			// create an image from a character
 			// create a canvas,
 			// write to it as text
 			// use canvas.toDataURL() to copy
-			document.write('Pi = &#x0023');
+			context.font = 'bold 16px Times';
+			context.textBaseline = 'top';
+
+			context.fillText('Pi = '+smallPi, 10, 10);
+
+			context.strokeText('Pi = '+smallPi, 10, 10);
+
+			document.write('Pi = '+smallPi);
+			// can copy from a canvas - see p600
+			// TODO this is not working - not drawing anything to the canvas!
+			/**
+			 * Create a tiny (16px) image from the specified character (string).
+			 *
+			 * @param c
+			 */
+			function characterToImage(c)  {
+
+				imageCanvas = document.createElement('canvas');
+				imageCanvas.setAttribute('width', '16');
+				imageCanvas.setAttribute('height', '16');
+				imageCanvas.id = 'imageCanvas';
+
+				// for debugging
+				imageCanvas.style.background = 'red';
+
+				imageContext = imageCanvas.getContext('2d');
+				imageContext.font = 'bold 14px Times';
+				imageContext.fillText(c, 0, 0);
+				//imageContext.strokeText()
+
+				imageElement = document.createElement('img');
+				imageElement.src = imageCanvas.toDataURL();
+
+				return imageElement;
+			}
+
+			charImg = characterToImage('A');
+			// are coordinates absolute (for the window), or are they relative to the current element?
+			context.drawImage(charImg, 0, 0);
+
+
 
 			//rotate image (p612 translate method)
 
